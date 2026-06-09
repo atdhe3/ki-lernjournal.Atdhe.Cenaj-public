@@ -5,6 +5,10 @@ import sqlite3
 import pandas as pd
 import streamlit as st
 from google import genai
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 
 DB_FILE = "lernjournal.db"
